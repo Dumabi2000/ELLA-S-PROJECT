@@ -1,0 +1,254 @@
+.body {
+    background-color: #ffffff;
+    margin:0;
+    font-family: 'Open Sans', serif, sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+
+ul, li, a.nav-link {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;   
+}
+
+    
+footer{
+    background-color: black;
+}
+
+.footer-text{
+    color:white; 
+    font-weight: 100; 
+    font-family: monospace;
+}
+
+/* breakpoint for small devices navbar */
+
+@media (max-width: 767px) {
+    .navbar-collapse{
+    text-align: center;
+    padding-left: 0;
+    background-color: black;
+    }
+
+    .navbar-collapse>ul>li>a{
+        border-bottom: 1px solid rgba(129, 128, 128, 0.2);
+    }
+
+}
+
+.bc {
+    background-color: black;
+}
+.header1 {
+background-image: url(../Images/Background\ img.jpg);
+background-repeat: no-repeat;
+height: auto;
+padding-bottom: 500px;
+background-size: cover;
+}
+
+.header-content{
+    padding-top: 250px;
+    color: white;
+    text-align: center;
+}
+
+.button1 {
+    padding-bottom: 100px;
+    padding-top:100px 
+       
+}
+
+.button {
+text-align: center;
+}
+
+.header2 {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.card-columns {
+    padding-bottom: 50px;
+}
+
+.header-content2 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.header3 {
+    background-image: url(../images/background\ image2.jpeg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+    
+.header-content3{
+    font-size: 48px;
+   text-align: center;
+   font-family: sans-serif;
+   padding-top: 100px;
+   
+}
+
+.SM {
+    padding-bottom: 100px;
+}
+
+.form1 {
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px
+    
+}
+
+.header4 {
+background-image: url(../images/background\ image2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.SIG {
+padding-top: 100px;
+
+}
+
+.SIG2 {
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px
+    
+}
+
+.header5 {
+    background-color: burlywood;
+    background-size: cover;
+    padding-left: 20px;
+    
+}
+
+.bg {
+background-color: black;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+}
+
+.header-content4 {
+    font-size: 48px;
+   text-align: center;
+   font-family: sans-serif;
+   padding-top: 100px;
+   
+}
+
+.bgtext {
+    color: white;
+}
+
+.bg2 {
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-blend-mode: screen;
+}
+
+.bg3 {
+    background-color: wheat;
+}
+
+.mt-0 {
+    margin-bottom: 100px;
+}
+
+.PL {
+   padding-left: 300px;
+   padding-top: 100px;
+}
+
+.bg4 {
+  background-image: url(../images/camera.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.header6 {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-top: 100px;
+}
+
+.Rateform {
+    scroll-padding-left: 100px;
+    color: white;
+    padding-top: 50px;
+}
+
+.UL {
+    background-image: url(../images/background\ image2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat repeat;
+    padding-bottom: 50px; 
+}
+
+.UF {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px  
+}
+
+.BN {
+    background-color: gray;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.BNF {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.GP {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.About {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
